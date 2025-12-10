@@ -16,7 +16,7 @@
 	},
 	"backgroundColors": [
 		"#FCC841",
-		"#DFEFFC",
+		"#dfeffc",
 		"#DEDE92",
 		"#DE4331",
 		"#FE9750",
@@ -74,6 +74,6 @@
 	"summaryInContent": false,
 	"isCachePem": false,
 	"hideEditButton": false,
-	"currentHatIndex": 2,
+	"currentHatIndex": 3,
 	"hatFlipped": false
 }
