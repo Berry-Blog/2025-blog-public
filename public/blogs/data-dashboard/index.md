@@ -51,9 +51,26 @@
 
 在 Figma 中制作一张圆圈点图，放置在地图上。
 
-## Demo
+## 动画
 
-[https://suni-3d.vercel.app/map-01](https://suni-3d.vercel.app/map-01)
+原本记得使用 `frame-motion-3d` ，这个 sdk 的，但是发现已经下架了，强行安装使用也不行。那么就要考虑 js 动画库了。
+
+但是又发现 *pmndrs* 有自己的 spring 库 `@react-spring/three`，就正好。
+
+* threejs 的动画无法像 `motion` 标签一样直接设置 opacity，但可以使用 spring 的材质设置
+```tsx
+import { a, easings, useSpring } from '@react-spring/three'
+
+<a.meshStandardMaterial transparent opacity={ spring.opacity} />
+```
+
+* light 出现时机。这里有十几二十 的 light 设置，如果一次性显示，画面会直接**卡顿**。无法通过材质调整优化。
+
+动画设计上也无法让 light 先出现。让 light 出现时机错开 50ms 也不行。
+
+解决方案是让 light 存在，而设置**光强度**。
+
+[跳转查看](https://suni-3d.vercel.app/map-01)
 
 <iframe
 	src='https://suni-3d.vercel.app/map-01'
