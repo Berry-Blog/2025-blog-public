@@ -1,7 +1,7 @@
 {
 	"meta": {
 		"title": "bzzp",
-		"description": "YYsuni 的个人博客，记录前端开发、探索、笔记。前端 UI 更新代码仓库。",
+		"description": "bzzp的小窝",
 		"username": "bzzp"
 	},
 	"theme": {
@@ -45,21 +45,21 @@
 		{
 			"id": "github",
 			"type": "github",
-			"value": "https://github.com/yysuni",
+			"value": "https://github.com/Berry-Blog/2025-blog-public",
 			"label": "Github",
 			"order": 3
 		},
 		{
 			"id": "juejin",
 			"type": "juejin",
-			"value": "https://juejin.cn/user/2427311675422382",
+			"value": "https://juejin.cn/user/2174161517818923",
 			"label": "稀土掘金",
 			"order": 2
 		},
 		{
 			"id": "email",
 			"type": "email",
-			"value": "yysuni1001@gmail.com",
+			"value": "gg980812861@gmail.com",
 			"label": "",
 			"order": 1
 		}
