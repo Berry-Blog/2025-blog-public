@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "slug": "1-1",
+    "title": "随记",
+    "tags": [],
+    "date": "2026-06-27T11:06",
+    "summary": "测试",
+    "cover": "/blogs/1-1/df61f4f7c4d79dc7.webp",
+    "hidden": true,
+    "category": "随记"
+  }
+]
